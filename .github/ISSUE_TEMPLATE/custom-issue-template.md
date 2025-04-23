@@ -1,9 +1,9 @@
 ---
 name: Custom Issue Template
-about: The purpose is to describe a feature/change added
+about: The purpose is to describe a change that should be made
 title: "[CHANGE]"
-labels: ''
-assignees: ''
+labels: enhancement
+assignees: rec4l
 
 ---
 
