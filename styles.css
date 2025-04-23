@@ -1,0 +1,42 @@
+:root {
+    --brand-color: rgb(84, 84, 84);
+}
+
+* {
+    background-color: var(--brand-color, #f0f0f0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #8989d8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+h3 {
+    color: hsl(240, 100%, 91%);
+}
+
+h4 {
+    color: hsla(240, 100%, 91%, 0.9);
+}
+
+h5 {
+    color: red;
+}
+
+a {
+    color: hwb(0 100% 0%);
+    font-weight: bold;
+}
+
+li {
+    color: color-mix(in srgb, rgb(0, 0, 0) 40%, rgb(255, 255, 255) 60%);
+}
+
+form {
+    color: color(srgb 0.1 0.2 0.3 / 0.8);
+}
